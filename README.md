@@ -69,12 +69,13 @@ The most appropriate algorithm for the specific case was **Nearest Centroid**. B
 
 |           Category           |        Algorithm       |   Accuracy  |  Precision  |    Recall   |      F1     |      F2     |
 |:----------------------------:|:----------------------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
-|    Support Vector Machine    |        LinearSVC       |   0.76887   |   0.25328   |   0.37650   |   0.30284   |   0.34311   |
-|    Support Vector Machine    |           SVC          | **0.86933** | **0.77778** |   0.02800   |   0.05405   |   0.03469   |
-| Nearest Neighbors            | KNeighborsClassifier   | 0.85747     | 0.45751     | 0.37150     | 0.41004     | 0.38601     |
-| **Nearest Neighbors**        | **NearestCentroid**    | 0.73933     | 0.31052     | **0.78250** | **0.4446**0 | **0.60008** |
-| Ensemble Methods (Averaging) | RandomForestClassifier | 0.80033     | 0.26208     | 0.27400     | 0.26791     | 0.27153     |
-| Ensemble Methods (Boosting)  | AdaBoostClassifier     | 0.84847     | 0.40087     | 0.27600     | 0.32692     | 0.29434     |
+|    Support Vector Machine    |        LinearSVC       |   0.76007   |   0.24481   |   0.38350   |   0.29885   |   0.34447   |
+|    Support Vector Machine    |           SVC          | **0.86927** | **0.88235** |   0.02250   |   0.04388   |   0.02795   |
+| Nearest Neighbors            | KNeighborsClassifier   | 0.85193     | 0.43233     | 0.35300     | 0.38866     | 0.36645     |
+| **Nearest Neighbors**        | **NearestCentroid**    | 0.73833     | 0.30975     | **0.78350** | **0.44397** | **0.59997** |
+| Ensemble Methods (Averaging) | RandomForestClassifier | 0.83293     | 0.36427     | 0.33950     | 0.35145     | 0.34418     |
+| Ensemble Methods (Boosting)  | AdaBoostClassifier     | 0.84893     | 0.40404     | 0.28000     | 0.33077     | 0.29832     |
+
 
 As can be seen in the table, Support Vector Classifier performed better in Accuracy and Precision and Nearest Centroid in Recall and the F scores. I ended up using Nearest Centroid because I wanted a more balanced behavior, otherwise a high score may be misleading if it is combined with poor score in the other categories. This can be demonstrated graphically.  
 
