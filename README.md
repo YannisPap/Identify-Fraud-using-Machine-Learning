@@ -10,9 +10,9 @@ The scope of the project is the creation of an algorithm with the ability to ide
 
 ## Data Exploration
 
-The features included in the dataset can be divided in three categories, Salary Features, Stock Features and Email Features. Bellow you may find the full feature list with  brief definition of each one.
+The features included in the dataset can be divided in three categories, Payment Features, Stock Features and Email Features. Bellow you may find the full feature list with  brief definition of each one.
 
-**Salary Features**
+**Payment Features**
 
 | Payments            | Definitions of Category Groupings                                                                                                                                                                                                                                                                                                                                                                                                |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
