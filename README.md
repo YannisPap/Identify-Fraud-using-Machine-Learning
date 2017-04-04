@@ -1,6 +1,8 @@
 
 # Identify Fraud Using Machine Learning (Project Overview)
 
+![banner](images/banner.jpg)
+
 ## Goal of the project
 
 In 2000, Enron was one of the largest companies in the United States. By 2002, it had collapsed into bankruptcy due to widespread corporate fraud. In the resulting Federal investigation, a significant amount of typically confidential information entered into the public record, including tens of thousands of emails and detailed financial data for top executives.
@@ -10,9 +12,9 @@ The scope of the project is the creation of an algorithm with the ability to ide
 
 ## Data Exploration
 
-The features included in the dataset can be divided in three categories, Salary Features, Stock Features and Email Features. Bellow you may find the full feature list with  brief definition of each one.
+The features included in the dataset can be divided in three categories, Payment Features, Stock Features and Email Features. Bellow you may find the full feature list with  brief definition of each one.
 
-**Salary Features**
+**Payment Features**
 
 | Payments            | Definitions of Category Groupings                                                                                                                                                                                                                                                                                                                                                                                                |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
